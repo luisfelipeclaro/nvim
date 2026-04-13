@@ -17,3 +17,14 @@ mapkey.set('n', '<C-l>', '<C-w>l', { desc = 'Focus right' })
 -- Escape insert mode
 mapkey.set('i', 'jk', '<Esc>')
 
+-- Navigate buffers
+mapkey.set('n', '<S-l>', '<cmd>BufferLineCycleNext<CR>', {})
+mapkey.set('n', '<S-h>', '<cmd>BufferLineCyclePrev<CR>', {})
+
+-- Close buffers
+mapkey.set('n', '<leader>bc', '<cmd>bdelete<CR>', {}) -- Close current
+mapkey.set('n', '<leader>bP', '<cmd>BufferLineTogglePin<CR>', {}) -- Pin/Unpin
+
+-- Pick buffer
+mapkey.set('n', '<leader>bpick', '<cmd>BufferLinePick<CR>', {})
+

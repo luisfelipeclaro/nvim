@@ -24,7 +24,7 @@ opt.signcolumn = 'yes'
 
 -- Timings
 opt.updatetime = 250
-opt.timeoutlen = 300
+opt.timeoutlen = 250
 
 -- Splits
 opt.splitright = true
@@ -52,4 +52,4 @@ opt.smartcase = true
 -- No wrap
 opt.wrap = false
 
-vim.cmd("colorscheme habamax")
+vim.cmd 'colorscheme habamax'

@@ -52,4 +52,8 @@ opt.smartcase = true
 -- No wrap
 opt.wrap = false
 
-vim.cmd 'colorscheme habamax'
+-- enable 24-bit RGB true color
+opt.termguicolors = true
+
+-- vim.cmd.colorscheme 'catppuccin-nvim'
+-- vim.cmd 'colorscheme habamax'

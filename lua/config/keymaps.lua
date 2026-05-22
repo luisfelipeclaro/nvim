@@ -27,3 +27,6 @@ mapkey.set('n', '<leader>bc', '<cmd>bdelete<CR>', {}) -- Close #current
 
 -- Pick buffer
 mapkey.set('n', '<leader>bpick', '<cmd>BufferLinePick<CR>', {})
+
+mapkey.set('n', 'sw', 'ysiw', { remap = true, desc = 'Surround word with character' })
+mapkey.set('n', '<leader>ba', '<cmd>%bd<CR>', { desc = 'Close all buffers' })

@@ -57,3 +57,5 @@ opt.termguicolors = true
 
 -- vim.cmd.colorscheme 'catppuccin-nvim'
 -- vim.cmd 'colorscheme habamax'
+
+opt.clipboard = 'unnamedplus'

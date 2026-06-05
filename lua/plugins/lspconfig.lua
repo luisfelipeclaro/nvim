@@ -128,11 +128,12 @@ return {
       --
       -- But for many setups, the LSP (`ts_ls`) will work just fine
       ts_ls = {
-        root_markers = { 'package.json', '.git', 'tsconfig.json' },
+        root_markers = { 'package.json', '.git', 'tsconfig.json', 'jsconfig.json' },
       },
       bashls = {},
       prettier = {},
       angularls = {},
+      eslint = {},
 
       stylua = {}, -- Used to format Lua code
 

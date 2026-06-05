@@ -5,8 +5,20 @@ return {
   config = function()
     local parsers = {
       'bash',
-      'lua', 'luadoc',
-      'markdown', 'markdown_inline'
+      'lua',
+      'luadoc',
+      'markdown',
+      'markdown_inline',
+      'javascript',
+      'typescript',
+      'tsx',
+      'html',
+      'css',
+      'scss',
+      'angular',
+      'dockerfile',
+      'yaml',
+      'json',
     }
     require('nvim-treesitter').install(parsers)
     --@param buf integer
@@ -52,5 +64,5 @@ return {
         end
       end,
     })
-  end
+  end,
 }

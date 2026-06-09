@@ -134,6 +134,7 @@ return {
       prettier = {},
       angularls = {},
       eslint = {},
+      tailwindcss = {},
 
       stylua = {}, -- Used to format Lua code
 

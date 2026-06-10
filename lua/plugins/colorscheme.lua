@@ -75,7 +75,7 @@ return {
     }
 
     -- setup must be called before loading
-    vim.cmd.colorscheme 'catppuccin-nvim'
+    -- vim.cmd.colorscheme 'catppuccin-nvim'
   end,
 }
 
